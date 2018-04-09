@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">GameWithQLearning</string>
+    <string name="count">Number Of Steps :</string>
+    <string name="_0">0</string>
+    <string name="newGame">New game</string>
+    <string name="qPlay">See Q play</string>
+    <string name="game_status">Game Status : </string>
+
+    <string name="status_continues">Continues</string>
+    <string name="status_won">Won</string>
+    <string name="status_lost">Lost</string>
+
+</resources>
