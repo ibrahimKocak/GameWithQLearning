@@ -21,7 +21,7 @@ public class Q_Learning {
         r[3][0] = 100;
         r[22][0] = 100;
         r[30][0] = 100;
-
+/*
         r[0][3] = 20;
         r[6][3] = 20;
         r[25][3] = 20;
@@ -40,7 +40,7 @@ public class Q_Learning {
         r[33][30] = 20;
         r[52][30] = 20;
         r[60][30] = 20;
-
+*/
 
         q = new double[100][100];
 
@@ -72,7 +72,7 @@ public class Q_Learning {
             }
         }
 
-        lw /= lw+0.1;
+        //lw /= lw+0.1;
 
     }
 
@@ -84,6 +84,7 @@ public class Q_Learning {
         ArrayList<Integer> clickable;
 
         clickable = findClickable.find(j);
+        //Collections.shuffle(clickable);
 
         for (Integer index: clickable) {
 
